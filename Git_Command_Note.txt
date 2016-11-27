@@ -1,0 +1,11 @@
+git init //创建新的仓库repository
+git diff //比较工作区域与暂存区域内文件的不同
+git diff <commitA> <commitB>//用于比较两个commit的不同，通常用于历史记录
+git diff --staged//用于比较版本库中head所指向的版本中文件与暂存区域的文件的差别
+
+git clone url//从远程复制一个repository下来
+
+git checkout <branch>//检出某一个分支，将head指针移到这个分支上
+git checkout <commit ID>//检出某一个历史版本，head指向该版本，同时文件内容也变为该版本
+
+git log //显示所有的提交历史记录
